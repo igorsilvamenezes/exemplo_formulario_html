@@ -1,6 +1,6 @@
 console.log('Página carregada!!');
 
-document.addEventListener('submit', function(event){
+document.addEventListener('submit', async function(event){
     //Evita a página ser recarregada ao submeter o formulário
     event.preventDefault();
 
