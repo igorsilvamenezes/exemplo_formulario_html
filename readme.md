@@ -18,6 +18,12 @@
 - Criar a regra do botão salvar para novo registro
 - Limpar formulário
 
+* CANCELAR REGISTRO
+- Incluir no formulário o botão cancelar
+- Adicionar evento no botão cancelar
+- Criar a regra do botão cancelar
+- Limpar formulário
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>TO DO
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -37,12 +43,8 @@
 - Formatar a tabela
 - Listar todos os registros cadastrados na tabela
 
-* CANCELAR CADASTRO
-- Incluir no formulário o botão cancelar
+* CANCELAR REGISTRO
 - Formatar o botão cancelar
-- Adicionar evento no botão cancelar
-- Criar a regra do botão cancelar
-- Limpar formulário
 - Limpar as mensagens de validações do formulário
 
 * EXCLUIR CADASTRO
