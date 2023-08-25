@@ -16,6 +16,7 @@
 - Inclusão do botão "salvar" no formulário
 - Adicionar evento no botão salvar
 - Criar a regra do botão salvar para novo registro
+- Limpar formulário
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>TO DO
@@ -29,7 +30,6 @@
 
 * SALVAR REGISTRO
 - Criar a regra do botão salvar para editar registro
-- Limpar formulário
 - Validação dos campos do formulário
 
 * TABELA

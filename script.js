@@ -3,6 +3,9 @@ console.log('Página carregada!!');
 //Lista de clientes (array de objetos)
 let customersList = [];
 
+//Obter os elemento html form
+const mainForm = document.querySelector('#mainForm');
+
 //Obtem o elemento html com ID fieldName
 const edtName = document.querySelector('#fieldName');
 
@@ -12,6 +15,9 @@ const edtAddress = document.querySelector('#fieldAddress');
 //Obtem o elemento html com ID fieldAge
 const edtAge = document.querySelector('#fieldAge');
 
+//Limpa o formulario e dá foco no campo Nome
+clearForm();
+
 //Função disparada quando ocorrer o evento submit
 document.addEventListener('submit', async function(event){
     //Evita a página ser recarregada ao submeter o formulário
@@ -19,7 +25,11 @@ document.addEventListener('submit', async function(event){
 
     console.log('Formulario submetido!!!');
 
+    //Salva o cadastro do cliente
     saveCustomer();
+
+    //Limpa o formulario e dá foco no campo Nome    
+    clearForm();
 });
 
 function saveCustomer() {
@@ -43,5 +53,9 @@ function saveCustomer() {
     customersList.push(customer);
 
     console.log(customersList);
+}
 
+function clearForm() {
+    mainForm.reset();
+    edtName.focus();
 }
