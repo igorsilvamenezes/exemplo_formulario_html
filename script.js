@@ -1,26 +1,47 @@
 console.log('Página carregada!!');
 
+//Lista de clientes (array de objetos)
+let customersList = [];
+
+//Obtem o elemento html com ID fieldName
+const edtName = document.querySelector('#fieldName');
+
+//Obtem o elemento html com ID fieldAddress
+const edtAddress = document.querySelector('#fieldAddress');
+
+//Obtem o elemento html com ID fieldAge
+const edtAge = document.querySelector('#fieldAge');
+
+//Função disparada quando ocorrer o evento submit
 document.addEventListener('submit', async function(event){
     //Evita a página ser recarregada ao submeter o formulário
     event.preventDefault();
 
     console.log('Formulario submetido!!!');
 
-    //Obtem o elemento html com ID fieldName
-    const edtName = document.getElementById('fieldName');
-    //Obtem o valor (texto digitado) do edit
-    const nameValue = edtName.value;
-    console.log('Nome:', nameValue);
-
-    //Obtem o elemento html com ID fieldAddress
-    const edtAddress = document.getElementById('fieldAddress');
-    //Obtem o valor (texto digitado) do edit
-    const addressValue = edtAddress.value;
-    console.log('Endereço:', addressValue);
-    
-    //Obtem o elemento html com ID fieldAge
-    const edtAge = document.getElementById('fieldAge');
-    //Obtem o valor (texto digitado) do edit
-    const ageValue = edtAge.value;
-    console.log('Idade:', ageValue);    
+    saveCustomer();
 });
+
+function saveCustomer() {
+    console.log('Função saveCustomer executado!');
+
+    //Obtem os valores (texto digitado) dos edits
+    const edtNameValue = edtName.value;
+    const edtAddressValue = edtAddress.value;
+    const edtAgeValue = edtAge.value;
+
+    console.log(edtNameValue, edtAddressValue, edtAgeValue);
+
+    //Cria um objeto com os dados do cliente
+    const customer = {
+        name: edtNameValue,
+        address: edtAddressValue,
+        age: edtAgeValue
+    }
+
+    //Adiciona um objeto (cliente) na lista de clientes (array)
+    customersList.push(customer);
+
+    console.log(customersList);
+
+}
