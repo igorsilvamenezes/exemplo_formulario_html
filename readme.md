@@ -8,6 +8,7 @@
 - Criar o repositório no GitHub
 - Criar a página Index.html
 - Criar o arquivo script.js
+- Criar o arquivo style.css
 
 * FORMULÁRIO
 - Incluir o formulário e dos campos de cadastro
@@ -27,9 +28,6 @@
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>TO DO
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-* PROJEOTO
-- Criar o arquivo style.css
 
 * FORMULÁRIO
 - Formatar o formulário
