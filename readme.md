@@ -12,6 +12,7 @@
 
 * FORMULÁRIO
 - Incluir o formulário e dos campos de cadastro
+- Formatar o formulário
 
 * SALVAR REGISTRO
 - Inclusão do botão "salvar" no formulário
@@ -28,9 +29,6 @@
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>TO DO
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-* FORMULÁRIO
-- Formatar o formulário
 
 * SALVAR REGISTRO
 - Criar a regra do botão salvar para editar registro
