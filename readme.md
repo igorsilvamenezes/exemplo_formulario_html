@@ -19,6 +19,7 @@
 - Adicionar evento no botão salvar
 - Criar a regra do botão salvar para novo registro
 - Limpar formulário
+- Validação dos campos do formulário
 
 * CANCELAR REGISTRO
 - Incluir no formulário o botão cancelar
@@ -32,7 +33,6 @@
 
 * SALVAR REGISTRO
 - Criar a regra do botão salvar para editar registro
-- Validação dos campos do formulário
 
 * TABELA
 - Incluir a tabela de lista de clientes cadastrados
