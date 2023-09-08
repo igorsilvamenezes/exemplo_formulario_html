@@ -27,6 +27,10 @@
 - Criar a regra do botão cancelar
 - Limpar formulário
 
+* TABELA
+- Incluir a tabela de lista de clientes cadastrados
+- Formatar a tabela
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>TO DO
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -35,8 +39,6 @@
 - Criar a regra do botão salvar para editar registro
 
 * TABELA
-- Incluir a tabela de lista de clientes cadastrados
-- Formatar a tabela
 - Listar todos os registros cadastrados na tabela
 
 * CANCELAR REGISTRO
